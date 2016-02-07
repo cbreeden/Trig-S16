@@ -1,0 +1,141 @@
+    body {
+        background: #FFF
+    }
+
+    table, table td {
+        font : 16px/1.1 Arial;
+    }
+
+    #pageWrapper {
+        font: 14px/1.4 Arial;
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #FFF
+    }
+
+    #header {
+        line-spacing: 0em;
+        padding-bottom: 10px;
+    }
+
+    #header h1 {
+        -webkit-margin-after: 0.1em;
+    }
+
+    #contact {
+        overflow: hidden;
+    }
+
+    #contact table {
+        /*border: 1px solid black;*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact th {
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    #contact td {
+        padding-right: 40px;
+        text-align: left;
+    }
+
+    #materials {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #materials th, #materials td {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #grade-scale {
+        border: 1px solid black;
+        border-collapse: collapse;
+        float:right;
+        margin-left: 30px;
+    }
+
+    #grade-scale td, #grade-scale th {
+        border: 1px solid black;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section h2 {
+        background: #BBB;
+        padding-left: 5px;
+    }
+    section h3 {
+        display: inline;
+    }
+
+    /* Lectures.html Stuff */
+    #topics {
+        width: 720px;
+    }
+
+    #topics th {
+        background: #EEE;
+        text-align: left;
+    }
+
+    #topics .date {
+        float: right;
+    }
+
+    .week {
+        margin-top:20px;
+    }
+
+    .week ul {
+        margin: 0px;
+    }
+
+    .week section {
+        list-style-type: none;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
+    .week h3 {
+        background: #EEE;
+        display: block;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .week section h3 {
+        background: none;
+    }
+
+    .exam {
+        color: red;
+    }
+
+    em {
+        font-weight: bold;
+    }
+
+    /* exams.html stuff */
+    #schedule table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #schedule th, #schedule td {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #schedule th
+        text-align: center;
+    }
+
+    /* Homework.html stuff */
