@@ -1,141 +1,185 @@
-    body {
-        background: #FFF
-    }
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
+* {
+   font-family: 'Droid Serif', serif;
+}
 
-    table, table td {
-        font : 16px/1.1 Arial;
-    }
+body {
+   background: #FFF;
+}
 
-    #pageWrapper {
-        font: 14px/1.4 Arial;
-        width: 720px;
-        margin-left: auto;
-        margin-right: auto;
-        background: #FFF
-    }
+h2 {
+   line-height: 1.1em;
+}
 
-    #header {
-        line-spacing: 0em;
-        padding-bottom: 10px;
-    }
+table,
+table td,
+table th {
+   font-size: 18px;
+   line-height: 1.2em;
+}
 
-    #header h1 {
-        -webkit-margin-after: 0.1em;
-    }
+#pageWrapper {
+   font-size: 16px;
+   line-height: 1.4em;
+   width: 720px;
+   margin-left: auto;
+   margin-right: auto;
+   background: #FFF
+}
 
-    #contact {
-        overflow: hidden;
-    }
+#header {
+   padding-bottom: 10px;
+}
 
-    #contact table {
-        /*border: 1px solid black;*/
-        margin-left: auto;
-        margin-right: auto;
-    }
+#header::after {
+   display: block;
+   content: "";
+   clear: both;
+}
 
-    #contact th {
-        text-align: left;
-        padding-right: 20px;
-    }
+#title-wrap {
+   position: relative;
+   height: 42px;
+}
 
-    #contact td {
-        padding-right: 40px;
-        text-align: left;
-    }
+#header #title {
+   margin-bottom: 0;
+}
 
-    #materials {
-        margin-left: auto;
-        margin-right: auto;
-    }
+#contact {
+   overflow: hidden;
+}
 
-    #materials th, #materials td {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+#contact table {
+   /*border: 1px solid black;*/
+   margin-left: auto;
+   margin-right: auto;
+}
 
-    #grade-scale {
-        border: 1px solid black;
-        border-collapse: collapse;
-        float:right;
-        margin-left: 30px;
-    }
+#contact th {
+   vertical-align: top;
+   text-align: left;
+   padding-right: 20px;
+}
 
-    #grade-scale td, #grade-scale th {
-        border: 1px solid black;
-        text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+#contact td {
+   vertical-align: top;
+   padding-right: 40px;
+   text-align: left;
+}
 
-    section h2 {
-        background: #BBB;
-        padding-left: 5px;
-    }
-    section h3 {
-        display: inline;
-    }
+#materials {
+   margin-left: auto;
+   margin-right: auto;
+}
 
-    /* Lectures.html Stuff */
-    #topics {
-        width: 720px;
-    }
+#materials th,
+#materials td {
+   padding-left: 15px;
+   padding-right: 15px;
+}
 
-    #topics th {
-        background: #EEE;
-        text-align: left;
-    }
+#grade-scale {
+   border: 1px solid black;
+   border-collapse: collapse;
+   float: right;
+   margin-left: 30px;
+}
 
-    #topics .date {
-        float: right;
-    }
+#grade-scale td,
+#grade-scale th {
+   border: 1px solid black;
+   text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+}
 
-    .week {
-        margin-top:20px;
-    }
+section h2 {
+   background: #BBB;
+   padding-left: 5px;
+}
 
-    .week ul {
-        margin: 0px;
-    }
+section h3 {
+   display: inline;
+}
 
-    .week section {
-        list-style-type: none;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        padding-left: 10px;
-    }
 
-    .week h3 {
-        background: #EEE;
-        display: block;
-        padding: 5px;
-        margin: 0px;
-    }
+/* Lectures.html Stuff */
 
-    .week section h3 {
-        background: none;
-    }
+.sc {
+   font-variant: small-caps;
+}
 
-    .exam {
-        color: red;
-    }
+#topics {
+   width: 720px;
+}
 
-    em {
-        font-weight: bold;
-    }
+#topics h3 {
+   float: left;
+   margin: 5px;
+}
 
-    /* exams.html stuff */
-    #schedule table {
-        margin-left: auto;
-        margin-right: auto;
-    }
+#topics .date {
+   float: right;
+   margin: 5px;
+}
 
-    #schedule th, #schedule td {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+#topics th {
+   background: #EEE;
+}
 
-    #schedule th
-        text-align: center;
-    }
 
-    /* Homework.html stuff */
+
+.week {
+   margin-top: 20px;
+}
+
+.week ul {
+   margin: 0px;
+}
+
+.week section {
+   list-style-type: none;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   padding-left: 10px;
+}
+
+.week h3 {
+   background: #EEE;
+   display: block;
+   padding: 5px;
+   margin: 0px;
+}
+
+.week section h3 {
+   background: none;
+}
+
+.exam {
+   color: red;
+}
+
+em {
+   font-weight: bold;
+}
+
+
+/* exams.html stuff */
+
+#schedule table {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#schedule th,
+#schedule td {
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+#schedule th text-align: center;
+
+}
+
+/* Homework.html stuff */
