@@ -1,7 +1,13 @@
 # https://git-scm.com/docs/gitignore
 # https://help.github.com/articles/ignoring-files
 # Example .gitignore files: https://github.com/github/gitignore
+<<<<<<< HEAD
 
+=======
+*.pdf_tex
+*.ggb
+*.pdf
+>>>>>>> 6c033c8a59e32c13746212ad89bdaab8095577fb
 /bower_components/
 /node_modules/
 
