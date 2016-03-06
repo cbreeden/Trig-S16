@@ -2,9 +2,8 @@
 # https://help.github.com/articles/ignoring-files
 # Example .gitignore files: https://github.com/github/gitignore
 
+*.pdf_tex
+*.ggb
+
 /bower_components/
 /node_modules/
-
-## Binary Files
-*.pdf
-*.ggb
